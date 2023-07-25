@@ -1,0 +1,42 @@
+h1{
+    color: red;
+}
+
+header {
+    background-color: white;
+}
+
+header nav ul{
+    color: black;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: orange;
+    text-decoration: none;
+    font-family: 'Caprasimo', cursive;;
+}
+
+#INICIO{
+    color: red;
+}
+#TOPTEN{
+    color: red;
+}
+
+#GENEROS{
+    color: red;
+}
+
+#CONTACTO{
+    color: purple;
+}
+
+#CANCIONES{
+    color: blue;
+}
+/*no tuve el tiempo de encontrar la solucion a poner la imagen como fondo de toda la pagina*/
+
+header img{
+    width: 100%;
+}
