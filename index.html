@@ -7,48 +7,55 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
-    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <header>
-        <img src="images/fondo.png" alt="fondo TuAcorde">
-    </header>
-
-    <SECTIon>
+    <div class="fondo">
         <h1>TusAcordes</h1>
         <P>Bienvenidos al sitio web donde aseguramos que encontraras los acordes de tu cancion favorita!!</P>
-    </SECTIon>
-
-    <SECTIOn>
         <P>Ingresa aqui la cancion que deseas buscar: </P>
-    </SECTIOn>
 
-    <section>
-        <button>
-            <a href="html/generos.html">GENEROS</a>
-            <img src="images/generos.jpeg" alt="img generos">
-        </button>
-    </section>
+        <div class="generosdiv">
+            <div>
+                <button>
+                    <a href="html/generos.html" class="musicales">GENEROS MUSICALES</a>
+                </button>
+            </div>  
+        </div>
+        
+        <div class="top10div">
+            <div>
+                <button>
+                    <a href="html/top10.html" class="botontop10" >TOP10</a>
+                </button>
+            </div>
+            
+        </div>
+        
+    </div>
 
-    <section>
-        <button>
-            <a href="html/top10.html">TOP10</a>
-            <img src="images/TOP10.jpeg" alt="top 10 img">
-        </button>
-    </section>
-
-    <FOOter>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html"id="INICIO">INICIO</a></li>
-                    <li><a href="html/top10.html"id="TOPTEN">TOP10</a></li>
-                    <li><a href="html/generos.html"id="GENEROS">GENEROS</a></li>
-                    <li><a href="html/contacto.html"id="CONTACTO">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </header>
-    </FOOter> 
+    <Footer>
+        <div>
+            <header>
+                <nav>
+                    <ul>
+                        <div class="contactofooter">
+                            <li><a href="html/contacto.html"id="CONTACTO">CONTACTO</a></li>
+                        </div>
+                        <div class="pie">
+                            <li><a href="index.html"id="INICIO">INICIO</a></li>
+                            <li><a href="html/top10.html"id="TOPTEN">TOP10</a></li>
+                            <li><a href="html/generos.html"id="GENEROS">GENEROS</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </Footer> 
 
 </body>
 
