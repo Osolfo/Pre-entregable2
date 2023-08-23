@@ -53,7 +53,8 @@ body div .generosdiv {
     font-family: 'Caprasimo', cursive;
     font-size: 20px;
     background-color: #eea047;
-    border: 2px solid black; }
+    border: 2px solid black;
+    border-radius: 6%; }
 body div .top10div {
   /*top10*/
   width: 13rem;
@@ -77,7 +78,8 @@ body div .top10div {
     font-size: 20px;
     margin-left: 86px;
     background-color: #eea047;
-    border: 2px solid black; }
+    border: 2px solid black;
+    border-radius: 6%; }
 
 .search-container {
   display: flex;
@@ -108,62 +110,327 @@ body div .top10div {
   .search-button:hover {
     background-color: #cc8400; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 footer {
-  width: 100%;
-  height: 6rem;
   background-color: #eea047;
-  padding: 0px; }
+  color: black;
+  padding: 0; }
   footer .derechosreservados {
-    background-color: #eea047;
+    padding: 0;
+    margin-bottom: 2rem; }
+  footer .contactofooter {
     color: black;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1rem; }
-    footer .derechosreservados ul .malditofooter {
-      width: 100%;
-      height: 6rem;
-      background-color: #eea047; }
-      footer .derechosreservados ul .malditofooter .contactofooter {
-        display: flex;
-        align-self: left;
+    align-self: flex-start;
+    font-weight: bold; }
+    footer .contactofooter #CONTACTO {
+      color: black;
+      text-decoration: none; }
+  footer .pie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0rem;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 50rem;
+    margin-top: -1rem; }
+    footer .pie #INICIO {
+      color: black;
+      text-decoration: none; }
+    footer .pie #TOPTEN {
+      color: black;
+      text-decoration: none; }
+    footer .pie #GENEROS {
+      color: black;
+      text-decoration: none; }
+
+body .linksgeneros {
+  width: 100%;
+  height: 33rem;
+  padding: 5rem;
+  float: left;
+  display: flexbox;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-decoration: none; }
+  body .linksgeneros ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0; }
+    body .linksgeneros ul li {
+      flex: 0 0 calc(50% - 1rem);
+      margin: 0.25rem;
+      text-decoration: none;
+      padding: 0.25rem;
+      box-sizing: border-box;
+      border: 3px solid black; }
+      body .linksgeneros ul li .cumbialink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
         text-decoration: none;
-        list-style: none; }
-        footer .derechosreservados ul .malditofooter .contactofooter #CONTACTO {
-          /*va solo siempre a la izquierda*/
-          color: black;
-          float: left;
-          padding: 1rem;
-          text-decoration: none;
-          background-color: #eea047;
-          font-weight: bold;
-          text-decoration: none;
-          list-style: none; }
-      footer .derechosreservados ul .malditofooter .pie {
-        list-style: none;
-        margin: 0;
-        padding: 1rem; }
-        footer .derechosreservados ul .malditofooter .pie #INICIO {
-          color: black;
-          text-decoration: none;
-          margin: 20px;
-          display: flex;
-          font-weight: bold; }
-        footer .derechosreservados ul .malditofooter .pie #TOPTEN {
-          color: black;
-          text-decoration: none;
-          margin: 20px;
-          display: flex;
-          font-weight: bold; }
-        footer .derechosreservados ul .malditofooter .pie #GENEROS {
-          color: black;
-          text-decoration: none;
-          margin: 20px;
-          display: flex;
-          font-weight: bold; }
+        /*color: black;
+        font-weight: bold;
+        width: 100%; 
+        height: 2rem;
+        line-height: 2rem; 
+        background-color: rgb(238, 160, 71);
+        font-size: 1rem;
+        text-decoration: none;
+        display: block; 
+        text-align: center;*/ }
+      body .linksgeneros ul li .cuartetolink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .regaetonlink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .rocklink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .folklorelink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .indielink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .electronicalink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .jazzlink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .reggaelink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .poplink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+
+body .linksgeneros {
+  width: 100%;
+  height: 33rem;
+  padding: 5rem;
+  float: left;
+  display: flexbox;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-decoration: none; }
+  body .linksgeneros ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0; }
+    body .linksgeneros ul li {
+      flex: 0 0 calc(50% - 1rem);
+      margin: 0.25rem;
+      text-decoration: none;
+      padding: 0.25rem;
+      box-sizing: border-box;
+      border: 3px solid black; }
+      body .linksgeneros ul li .TOP1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        /*color: black;
+        font-weight: bold;
+        width: 100%; 
+        height: 2rem;
+        line-height: 2rem; 
+        background-color: rgb(238, 160, 71);
+        font-size: 1rem;
+        text-decoration: none;
+        display: block; 
+        text-align: center;*/ }
+      body .linksgeneros ul li .TOP2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP4 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP5 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP6 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP7 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP8 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP9 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
+      body .linksgeneros ul li .TOP10 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #eea047;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: black;
+        text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
