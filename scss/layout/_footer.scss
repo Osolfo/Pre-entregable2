@@ -2,16 +2,19 @@
 footer {
     background-color: rgb(238, 160, 71);
     color: black;
-    padding: 0;
+    padding: 1rem;
     .derechosreservados{
-        padding: 0;
+        font-size: 1rem;
+        padding: 1rem;
         margin-bottom: 2rem;
+        border: 1px solid whitesmoke;
     }
 
     .contactofooter {
         color: black;
         align-self: flex-start;
         font-weight: bold;
+        list-style: none;
         #CONTACTO{
             color: black;
             text-decoration: none;

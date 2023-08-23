@@ -5,6 +5,22 @@ body{
         font-size: 5rem;
         padding-top: 100px;
         font-family: 'Lugrasimo', cursive;
+        animation: swing 4s infinite;
+        font-size: 116px;
+        color: rgb(238, 160, 71); 
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+        
+        @keyframes swing {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(10deg);
+            }
+            75% {
+                transform: rotate(-10deg);
+            }
+        }
     }
 
     p{

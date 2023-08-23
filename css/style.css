@@ -17,7 +17,18 @@ body h1 {
   text-align: center;
   font-size: 5rem;
   padding-top: 100px;
-  font-family: 'Lugrasimo', cursive; }
+  font-family: 'Lugrasimo', cursive;
+  animation: swing 4s infinite;
+  font-size: 116px;
+  color: #eea047;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+@keyframes swing {
+  0%, 100% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(10deg); }
+  75% {
+    transform: rotate(-10deg); } }
 body p {
   font-family: 'Caprasimo', cursive;
   text-align: center;
@@ -113,14 +124,17 @@ body div .top10div {
 footer {
   background-color: #eea047;
   color: black;
-  padding: 0; }
+  padding: 1rem; }
   footer .derechosreservados {
-    padding: 0;
-    margin-bottom: 2rem; }
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid whitesmoke; }
   footer .contactofooter {
     color: black;
     align-self: flex-start;
-    font-weight: bold; }
+    font-weight: bold;
+    list-style: none; }
     footer .contactofooter #CONTACTO {
       color: black;
       text-decoration: none; }
@@ -432,5 +446,11 @@ body .linksgeneros {
         font-weight: bold;
         color: black;
         text-decoration: none; }
+
+.contactoinfo {
+  color: #eea047;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: 3px solid black; }
 
 /*# sourceMappingURL=style.css.map */
